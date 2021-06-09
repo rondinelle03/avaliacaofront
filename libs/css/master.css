@@ -1,0 +1,182 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
+    font-family: 'Roboto', sans-serif;
+	
+}
+h1, h2, h3, h4, h5, h6, strong{
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+.navbar{
+	background-color: #2b2c2d;
+	moz-transition: height .2s ease-in-out;
+    -o-transition: height .2s ease-in-out;
+    -webkit-transition: height .2s ease-in-out;
+    transition: height .2s ease-in-out;
+    box-shadow: 0 4px 2px -2px rgb(0 0 0 / 30%);
+    height: 44px;
+    overflow: visible;
+    z-index: 1000040;
+}
+
+.navbar a{
+	color: #fff;
+}
+
+#logo-espn{
+	    background: url(../../img/logo-espn.png);
+    display: block;
+    width: 148px;
+    height: 44px;
+
+}
+
+a.nav-link{
+	font-size: 14px;
+	color: #fff !important;
+}
+
+#dir-lat{
+	display: flex;
+	list-style-type:none ;
+	margin-top: 13px;
+}
+
+.icin i{
+	font-size: 20px !important;
+}
+#dir-lat a{
+	padding: 8px !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: 0;
+    margin-top: 0;
+}
+
+.container p{
+	text-align: justify;
+}
+
+.sessao-conteudo{
+	margin-top: 40px;
+}
+
+.f-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    position: absolute;
+    color: #2b2c2d;
+}
+
+.dropdown-toggle.show::after {
+    border-color: transparent transparent #fff transparent;
+    border-style: solid;
+    border-width: 0 8px 8px 8px;
+    bottom: 0;
+    content: '';
+    height: 0;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 0;
+    z-index: 1000041;
+}
+
+.dropdown-menu{
+	border-radius: 0 !important;
+	border: 0;
+	padding: 10px;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+}
+
+a.dropdown-item{
+	padding: 10px 15px;
+	color: #6c6d6f !important;
+	font-size: 13px !important;
+}
+a.dropdown-item:hover{
+	border-radius: 5px;
+	background-color: #dd0000;
+	color: #fff !important;
+}
+
+
+
+
+
+/*  TESTES DE RESOLUCAOES PADROES */
+
+@media only screen and  (min-width:1600px) {
+
+	
+
+}
+
+@media only screen and  (min-width:1441px) and (max-width:1600px){
+
+	
+
+} /* FINAL RESOLUCAO*/
+
+
+@media only screen and  (min-width:1281px) and (max-width:1440px){
+
+
+
+} /* FIM RESOLUCAO*/
+
+@media only screen and  (min-width:1153px) and (max-width:1280px){
+
+
+
+}/*FIM RESOLUCAO*/
+
+@media only screen and  (min-width:1025px) and (max-width:1152px){
+
+
+
+}/*FIM RESOLUCAO*/
+
+@media only screen and  (min-width:769px) and (max-width:1024px){
+
+
+
+}/*FIM RESOLUCAO*/
+
+@media only screen and  (max-width:768px){
+
+	.navbar-toggler-icon {
+    display: inline-block;
+    width: 47px;
+    height: 50px;
+}
+	
+	.navbar{
+		height: auto !important;
+	}
+
+	.navbar-light .navbar-toggler-icon {
+    background: url(../../img/hamburger-menu.svg) !important;
+}
+
+}/*FIM RESOLUCAO*/
